@@ -11,7 +11,7 @@ header {
     width: 1220px;
 }
 
-.screen-header__menu {
+.screen-header__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,17 +19,17 @@ header {
     box-sizing: border-box;
 }
 
-.screen-header__logo {
+.logo img {
     width: 180px;
     margin: 0px 20px;
 }
 
-.screen-header__menu__nav__list {
+.screen-header__nav {
     display: flex;
     padding: 0px 20px;
 }
 
-.screen-header__menu__nav__link {
+.screen-header__nav__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,21 +39,7 @@ header {
     font-size: 18px;
 }
 
-
-.screen-header__sign__nav__list {
-    display: flex;
-}
-
-.screen-header__sign__nav__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 20px;
-    width: 90px;
-    height: 40px;
-}
-
-.screen-header__sign__nav__link:last-child {
+.screen-header__nav__link--signup {
     color: white;
     background-color: #2563eb;
     border-radius: 5px;
